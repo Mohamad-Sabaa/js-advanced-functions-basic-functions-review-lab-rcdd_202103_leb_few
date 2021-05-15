@@ -42,11 +42,22 @@ divide(10,5);
 
 
 
+<<<<<<< HEAD
 function actionApplyer(a, arrayOfTransforms) {
   for (let i = 0; i < arrayOfTransforms.length; i++) {
     a = arrayOfTransforms[i](a);
   }
   return a;
+=======
+function actionApplyer(0, []) {
+  let arrayOfTransforms = [];
+   arrayOfTransforms.push();
+   return arrayOfTransforms [
+     function(a){ return a * 2},
+     function(a){ return a + 1000},
+     function(a){return a % 7}
+   ]
+>>>>>>> 86829f6279e6abcb2426e67eaa887ecbb66d985e
 }
 
 actionApplyer(13, arrayOfTransforms);
